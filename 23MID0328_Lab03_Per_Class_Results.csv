@@ -1,0 +1,7 @@
+class_label,support,precision,recall,f1_score,most_common_confusion
+request,4,1,1,1,None
+meeting,4,1,1,1,None
+complaint,4,0.8,1,0.8889,request
+information,4,1,0.75,0.8571,complaint
+urgent_action,4,1,0.75,0.8571,request
+spam,4,0.8,1,0.8889,information

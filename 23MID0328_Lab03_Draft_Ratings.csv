@@ -1,0 +1,13 @@
+case_id,system,reviewer_id,true_label,predicted_label,relevance_1_5,faithfulness_1_5,tone_1_5,completeness_1_5,safety_privacy_1_5,unsupported_fact_count,major_edit_required
+D4_01,LLM_API,Rater_1,request,request,5,5,5,5,5,0,FALSE
+D4_01,Template,Rater_1,request,request,3,5,3,2,5,0,TRUE
+D4_02,LLM_API,Rater_1,meeting,meeting,5,5,5,4,5,0,FALSE
+D4_02,Template,Rater_1,meeting,meeting,3,5,3,2,5,0,TRUE
+D4_03,LLM_API,Rater_1,urgent_action,urgent_action,4,5,5,4,5,0,FALSE
+D4_03,Template,Rater_1,urgent_action,urgent_action,3,5,3,2,5,0,TRUE
+D4_04,LLM_API,Rater_1,spam,spam,5,5,5,5,5,0,FALSE
+D4_04,Template,Rater_1,spam,spam,5,5,5,5,5,0,FALSE
+D4_05,LLM_API,Rater_1,complaint,complaint,5,4,5,5,5,0,FALSE
+D4_05,Template,Rater_1,complaint,complaint,3,5,3,2,5,0,TRUE
+D4_06,LLM_API,Rater_1,information,information,5,5,4,4,5,0,FALSE
+D4_06,Template,Rater_1,information,information,3,5,3,2,5,0,TRUE
