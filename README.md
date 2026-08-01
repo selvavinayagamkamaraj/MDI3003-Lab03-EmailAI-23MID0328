@@ -17,9 +17,9 @@ Install all necessary packages via `pip`:
 ```bash
 pip install -U pandas numpy scipy scikit-learn matplotlib seaborn joblib openai sentence-transformers tensorflow
 
-To call the LLM API for automatic draft generation, configure your API key securely using environment variables or Colab Secrets. Never hardcode keys inside code files or commit .env files.
+#To call the LLM API for automatic draft generation, configure your API key securely using environment variables or Colab Secrets. Never hardcode keys inside code files or commit .env files.
 export OPENAI_API_KEY="your-actual-api-key-here"
 export OPENAI_MODEL="gpt-5-mini"
-windows command prompt
+#windows command prompt
 set OPENAI_API_KEY=your-actual-api-key-here
 set OPENAI_MODEL=gpt-5-mini
